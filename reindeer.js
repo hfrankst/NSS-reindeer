@@ -3,6 +3,10 @@ var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donne
 
 var hohohoElement = document.getElementById("coloredReindeer");
 
-for (){
-	
+for (i = 0; i < reindeer.length; i++){
+	console.log(colors[i] + " " + reindeer[i]);	
+	hohohoElement.innerHTML = hohohoElement.innerHTML + "<br>" + colors[i] + " " + reindeer[i];
 }
+
+
+
